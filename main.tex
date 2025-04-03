@@ -5,6 +5,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\DeclareUnicodeCharacter{2082}{$_2$}
 
 \title{L'implication éthique liée à la création de logiciels}
 \author{Lynne Guizani, Sephora Mavitidi Bunga, Andrea Lafarge, Bercy Yola}
@@ -14,12 +15,38 @@
 
 \section{Introduction}
 
-\subsection{Lynne}
+\subsection{L'impact sur l'environnement, et les des droits des travailleurs (Lynne)} 
+Puisqu’on parle d’éthique, il nous paraît parfaitement pertinent de traiter la question de l’impact du code sur l’environnement, ainsi que celle des droits des travailleurs dans le domaine.\\ 
+
+On pourrait reprocher plusieurs choses aux cryptomonnaies, par exemple, le fait qu’elles facilitent le blanchiment d’argent et qu’il s’agit d’une forme d’investissement pas tout à fait infaillible, mais surtout leur impact écologique désastreux. On estime que la consommation électrique annuelle dédiée au minage du bitcoin est comparable à celle de la Pologne, et pour ce qui est de l’empreinte hydrique, les scientifiques estiment qu'elle est équivalente à celle de 660 000 piscines olympiques (pour la période entre janvier 2020 et décembre 2021), soit environ 800 milliards de litres par an. Il est important de mentionner aussi que de petites inefficacités dans le code (hors-blockchain, hors-cryptomonnaie) peuvent s’accumuler et entraîner des retards importants qui augmentent la consommation d'électricité et les coûts de fonctionnement, surtout si un logiciel ou un service possède un grand nombre d’utilisateurs. Ce phénomène est davantage polluant si on tient compte du fait que si l’on héberge du code sur AWS (Amazon Web Services), cela implique l’exploitation des énergies fossiles, AWS étant le plus grand fournisseur de cloud computing.\\
+
+Il y a 2 facteurs qui font que les LLMs sont extrêmement énergivores : leur utilisation et leur entraînement. Une conversation moyenne avec ChatGPT consomme approximativement 500 ml d’eau, des impacts considérables si l’on compte les 1,5 milliard d’utilisateurs mensuels. Les data centers sont également fortement gourmands en énergie. En 2023, l’Agence internationale de l’énergie a révélé que les centres de données représentent environ 1 à 1,5\% de la consommation électrique mondiale. Ces chiffres risquent de s'accentuer à cause de la hausse croissante de la demande. La phase de pré-entraînement de GPT-3 a généré l’équivalent de 626 000 kg de CO₂, soit 71.9 tours de la terre en voiture ou la fabrication de 3 244 ordinateurs portables. (Source : Comparateur Carbone)\\
+
+D’ailleurs, l’IA n’est pas réellement de l’Intelligence Artificielle à proprement parler, c’est une approximation de l’intelligence humaine. Un GML n’est pas capable de raisonner, ce qui rend l’automatisation complète impossible selon Antonio A. Casilli, comme il l’explique dans son livre “En Attendant Les Robots”. Les “travailleurs du clic”, donc, “toute personne qui annote, filtre, enrichit ou structure des données pour la création d’énormes bases de données” sont, pour la plupart, issus des pays du sud global, et sont extrêmement sous-payés. Ces travailleurs sont invisibilisés et absents des textes régulant l’Intelligence Artificielle, même au sein de l’IA Act. Cette même main d’œuvre subit actuellement une forme d’expulsion massive (Personnes issues des pays de l’Amérique Latine aux É.-U.), alors que la même administration à l’avant-garde de la déréglementation massive de l’IA continue de les exploiter pour s’enrichir, tout en les mettant à l’écart.\\ 
+
+
+L’éthique ne concerne pas seulement la manière dont on écrit le code, mais aussi la manière dont on traite les ouvriers.\\ 
+
 
 \subsection{Andrea}
 
 
-\subsection{Sephora}
+\subsection{Le manque d'accessibilité pour les personnes déficientes visuellement (Sephora)}
+
+Un manque d’éthique inclusive réduit l’accès à des logiciels, certaines mesures adaptatives mises en place pour les personnes malvoyantes/aveugles peuvent avoir des retombées positives pour les autres utilisateurs qui n’ont pas de déficiences visuelles. \\ \\
+Le plan d’action eEurope 2005 promouvait l’e-inclusion mais certains logiciels utilisés pour le réaliser étaient incompatibles avec les narrateurs de lecture d'écran (qui sont des dispositifs d’assistance destinés aux aveugles) après la mise en service de nouveaux systèmes d'exploitation. Ce qui peut être perçu comme un manque de valorisation des besoins des personnes victimes de déficience visuelles dans l’éthique que l’on suit lors de la création d’un logiciel. 
+\\\\
+L’intégration de dispositif d’assistance n’est plus uniquement basée sur son bon vouloir mais elle est maintenant règlementée. En effet elle est réglementée par le W3C qui crée des standards et des lignes directrices à suivre lors de la création des technologies Web dans le monde. 
+\\\\
+En France L’association \cite{Wikipedia}.BrailleNet (liquidée judiciairement depuis 2022) décernait un label AccessiWeb qui certifiait de l’accessibilité des logiciels ou sites web sur demande de leurs responsables. Cette association a notamment été membre du W3C et a participé à la traduction française du WCAG (Web Content Accessibility Guidelines). 
+\\\\
+AccessiWeb a aussi contribué à la formation de 1500 experts à l’accessibilité numérique (2014) ce qui montre une réelle démarche pour l’évolution de l’accessibilité. 
+\\\\
+\cite{Gourvennec_2024}Au niveau de la législation française Pierre Marragou a assigné en justice l’État en justice pour ne pas avoir respecté une des lois du plan d’action eEurope 2005 pendant 19 ans. Dans les faits depuis l’instauration de cette loi qui cherchais à promouvoir l’accessibilité des logiciels de vie scolaire ne la respectaient pas ce qui empêchais les élèves ou parents malvoyants de l’utiliser. \\ Malgré la contestation de Sophie Cluzel (secrétaire de l’état) le jugement qui a été rendu oblige l’ARCOM, à mettre en œuvre ses pouvoirs pour vérifier si, oui ou non, les logiciels de vie scolaire sont conformes aux normes d’accessibilité. \\\\ 
+Enfin certains dispositifs de vérification comme les Captchas \cite{Wagner_2022b} peuvent êtres des entraves semées sur le chemin des personnes malvoyantes. Ils peuvent enlever ce côté pratique qu’a internet de pouvoir disposer et effectuer certaines tâches plus facilement pour les personne aveugle à cause de ce système de validation anti-robot qui repose majoritairement sur des tests visuels. 
+ 
+ 
+
 
 
 \subsection{Les lois mise en rigueurs et les dangers d'un manque d'étique dans la création de logiciel (Yola)}
@@ -43,7 +70,8 @@ Un problème d'éthique dans le code d'un logiciel peut entraîner le non-respec
 \subsection{Retour Réflexif}
 
 
-\bibliographystyle{alpha}
-\bibliography{sample}
+\bibliographystyle{unsrt}
+
+\bibliography{Sources}
 
 \end{document}
